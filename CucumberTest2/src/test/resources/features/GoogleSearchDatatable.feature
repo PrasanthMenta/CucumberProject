@@ -15,7 +15,7 @@ Feature: Google Search from Datatable
   Scenario: Google Search with data from datatable by converting to POJO
     Given I to launch the google page
     When I search for the text by joininig SearchText through datatable
-      | Search Word 1 | Search Word 2 
+      | Search Word 1 | Search Word 2 |
       | Selenium      | Java          |
       | Java          | Training      |
     Then Selenium java search is displayed
